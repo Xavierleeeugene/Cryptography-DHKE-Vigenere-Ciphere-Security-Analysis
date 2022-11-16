@@ -47,7 +47,7 @@ def brute(pt, ct):
         sys.stdout.flush()
 
         if newCT == ct:
-            print("Key Found: " + i)
+            print("\nKey Found: " + i)
             print("Total Tries:", counter)
             return i
 
